@@ -9,4 +9,13 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Artesanias.Core\Artesanias.Core.csproj" />
+    <ProjectReference Include="..\Artesanias.Infrastucture\Artesanias.Infrastucture.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Image\" />
+  </ItemGroup>
+
 </Project>
