@@ -1,13 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Data\" />
-    <Folder Include="Filters\" />
-    <Folder Include="Respositories\" />
+    <PackageReference Include="mercadopago-sdk" Version="1.8.0" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -10,12 +10,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Artesanias.Core\Artesanias.Core.csproj" />
-    <ProjectReference Include="..\Artesanias.Infrastucture\Artesanias.Infrastucture.csproj" />
+    <Folder Include="Image\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Image\" />
+    <ProjectReference Include="..\Artesanias.Core\Artesanias.Core.csproj" />
+    <ProjectReference Include="..\Artesanias.Infrastucture\Artesanias.Infrastucture.csproj" />
   </ItemGroup>
 
 </Project>
